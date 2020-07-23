@@ -1,0 +1,23 @@
+# IDE
+.idea
+*.iml
+
+# Terraform
+.terraform/
+terraform.tfplan
+terraform.tfstate
+.DS_Store
+*.tfstate
+*.lock.info
+
+# Terragrunt
+.terragrunt-cache/
+
+# Terragrunt
+.terragrunt-cache
+
+# Misc
+.*.swp
+*.log
+*.bak
+*.backup
