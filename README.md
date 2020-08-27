@@ -17,11 +17,11 @@ Use script to install all dependencies:
 ## Deployment
 
 ### Production
-1. Go to Terraform/AWS/prod-account/eu-central-1/hacker_game
+1. Go to *Terraform/AWS/prod-account/eu-central-1/hacker_game*
 2. `terragrunt apply`
 
 ### Local DynamoDB
-1. Go to Terraform/AWS/dev-account/eu-central-1/hacker_game
+1. Go to *Terraform/AWS/dev-account/eu-central-1/hacker_game*
 2. `terragrunt apply`
 
 You can override Terraform source using:
