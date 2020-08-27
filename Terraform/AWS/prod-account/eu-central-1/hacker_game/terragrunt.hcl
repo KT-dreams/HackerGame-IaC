@@ -1,5 +1,5 @@
 terraform {
-  source = "https://github.com/KT-dreams/IaC-Modules.git//hacker_game"
+  source = "https://github.com/KT-dreams/IaC-Modules.git"
 }
 
 prevent_destroy = true
