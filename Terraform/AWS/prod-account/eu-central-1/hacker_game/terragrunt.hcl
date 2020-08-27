@@ -1,5 +1,5 @@
 terraform {
-  source = "https://github.com/KT-dreams/IaC-Modules.git//hacker_game/dynamodb"
+  source = "https://github.com/KT-dreams/IaC-Modules.git//hacker_game"
 }
 
 prevent_destroy = true
