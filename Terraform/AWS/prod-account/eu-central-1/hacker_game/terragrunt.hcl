@@ -10,7 +10,6 @@ locals {
     vars         = merge(local.account_vars, local.region_vars)
 }
 
-
 inputs = {
   core_region = local.vars.core_region
 }
