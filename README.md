@@ -30,7 +30,7 @@ terragrunt apply --terragrunt-source <PATH_TO_SOURCE>
 ```
 
 ## Settings
-Script uses environment variables to set Terraform and Terragrunt version. You can overwrite it be setting your values for:
+Script uses environment variables to set Terraform and Terragrunt version. You can overwrite it by setting your values for:
 
 - TERRAGRUNT_VERSION
 - TERRAFORM_VERSION
