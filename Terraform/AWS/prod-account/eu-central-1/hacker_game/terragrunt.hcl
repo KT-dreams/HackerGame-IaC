@@ -1,5 +1,5 @@
 terraform {
-  source = "https://github.com/KT-dreams/IaC-Modules.git"
+  source = "git::https://github.com/KT-dreams/IaC-Modules.git"
 }
 
 prevent_destroy = true
