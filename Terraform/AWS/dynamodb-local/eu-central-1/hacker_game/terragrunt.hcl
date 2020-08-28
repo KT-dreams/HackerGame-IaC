@@ -1,5 +1,5 @@
 terraform {
-  source = "https://github.com/KT-dreams/IaC-Modules.git//hacker_game"
+  source = "https://github.com/KT-dreams/IaC-Modules.git//dynamodb"
 }
 
 prevent_destroy = true
@@ -12,7 +12,7 @@ locals {
 
 
 inputs = {
-  core_region    = local.vars.core_region
+  core_region = local.vars.core_region
 }
 
 include {
